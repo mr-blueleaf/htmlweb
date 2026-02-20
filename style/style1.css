@@ -1,0 +1,116 @@
+body{
+    color:rgb(255, 226, 108);
+    background-color: rgb(91, 50, 0);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    text-align: center;
+}
+#song-link{
+    color: rgb(111, 129, 230);
+}
+#ly1{
+    color: rgb(238, 224, 192);
+
+}
+#img1{
+    float: center;
+}
+#button1{
+    background-color: rgb(183, 245, 107);
+    color: rgb(80, 82, 79);
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    padding: 5px;
+    font-size: 15px;
+}
+#button2{
+    background-color: rgb(245, 211, 162);
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(72, 14, 14);
+    border-style: solid;
+    padding: 5px;
+    font-size: 15px;
+}
+#button1:hover{
+    background-color: rgb(9, 13, 248);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: transform 0.5s ease;
+}
+#button2:hover{
+    background-color: rgb(255, 69, 1);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: transform 0.5s ease;
+}
+#img1:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.m:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    color:aliceblue
+}
+
+.pages a{
+    text-decoration: none;
+    color: rgb(52, 47, 47);
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(173, 173, 173);
+    width: 6%;
+    padding: 5px;
+    text-shadow: none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+.pages a:hover{
+    background-color: rgb(6, 255, 243);
+    color: white;
+    font-size: 25px;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+.pages a#current{
+    background-color: rgb(5, 249, 49);
+    color: white;
+}
+.pages a:hover #current{
+    color: rgb(52, 47, 47);
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(116, 89, 212);
+}
+
+#homebutton{
+    background-color: rgb(245, 211, 162);
+    color: rgb(23, 17, 17);
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(72, 14, 14);
+    border-style: solid;
+    padding: 5px;
+    font-size: 15px;
+}
+#homebutton:hover{
+    background-color: rgb(240, 147, 46);
+    color: rgb(255, 255, 255);
+    border-color: rgb(72, 14, 14);
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
